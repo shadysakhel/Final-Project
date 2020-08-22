@@ -1,6 +1,0 @@
-# Final-Project
-Introduction/Business Problem:
-Each country has a goal of reducing the number of car accidents from a year to year basis. To be more specific, they aim to minimize the yearly number of fatalities caused by car accidents. They try to achieve that through various safety campaigns, promoting safe driving habits, etc. 
-With all the efforts being done, we still see a high number of fatalities! One of the reasons is that people underestimate the weather condition factor and what influence it would have on the probability that they might get harmed or cause harm.
-Wouldn’t it be great that if we had a model that would warn drivers of the degree of risk they would be putting themselves in when they decide to go for a drive while the weather conditions are not ideal? 
-I strongly believe that this will make drivers think twice before getting out for a drive and will also make them drive with much more precaution. It would be of a great added value if this added as part of the map navigation softwares which will asses the weather conditions from the starting point to the target destination and give a warning indication to the driver before he starts his journey.
