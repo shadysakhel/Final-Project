@@ -50,17 +50,15 @@ As part of cleaning the data, the following shall be done:
 10)	Drop incidents that do not have WEATHER, ROADCOND, LIGHTCOND, ADDRTYPE or COLLISIONTYP indicated
 11)	 We will not need the attributes INATTENTIONIND, UNDERINFL & SPEEDING. So we will drop them
 12)	Convert Categorical features to numerical value
- 
-The numerical codes of the categorical variables are defines as the below dictonaries:
- 
+![Image of the cleaned data](https://github.com/shadysakhel/Final-Project/blob/master/Image%202%20-%20Cleaned%20Data.png)
 
 # Data Visualization 
 The graph below shows the change in number of accidents per year from 2004 till 2020 (2020 Data is only till May)
- 
+![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Image%202%20-%20Cleaned%20Data.png)
 The graph below shows the change in number of accidents over months of the year. Since 2020 data is not for a complete year we will exclude it in this part of the analysis
- 
+![Image of the visualizatio](https://github.com/shadysakhel/Final-Project/blob/master/Image%202%20-%20Cleaned%20Data.png)
 The graph below shows the change in number of accidents over the days of the week
- 
+![Image of the visualizatio](https://github.com/shadysakhel/Final-Project/blob/master/Image%202%20-%20Cleaned%20Data.png)
 # Balancing the Data
  
 As you can see, our data has more incidents of severity code 1 than code 2, we need to balance the data set.
