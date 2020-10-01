@@ -54,46 +54,27 @@ As part of cleaning the data, the following shall be done:
 
 # Data Visualization 
 The graph below shows the change in number of accidents per year from 2004 till 2020 (2020 Data is only till May)
-![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Image%202%20-%20Cleaned%20Data.png)
+![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Picture%204%20-%20INCYEAR%20vs%20PERSONCOUNT.png)
 The graph below shows the change in number of accidents over months of the year. Since 2020 data is not for a complete year we will exclude it in this part of the analysis
-![Image of the visualizatio](https://github.com/shadysakhel/Final-Project/blob/master/Image%202%20-%20Cleaned%20Data.png)
+![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Picture5%20-%20INCMONTH%20vs%20PERSONCOUNT.png)
 The graph below shows the change in number of accidents over the days of the week
-![Image of the visualizatio](https://github.com/shadysakhel/Final-Project/blob/master/Image%202%20-%20Cleaned%20Data.png)
+![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Picture6%20-%20INCDATES%20vs%20PERSNCOUNT.png)
 # Balancing the Data
  
 As you can see, our data has more incidents of severity code 1 than code 2, we need to balance the data set.
+![Image of the unbalanced data](https://github.com/shadysakhel/Final-Project/blob/master/Picture7%20-%20Balanced%20Data.png)
+![Image of the balanced data](https://github.com/shadysakhel/Final-Project/blob/master/Picture8%20-%20Balanced%20Data%202.png)
  
 # Train-Test Split
  
-Next, we will have to normalize the data
+![Image of the train-test split](https://github.com/shadysakhel/Final-Project/blob/master/Picture9%20-%20Train-Test%20Split.png)
  
 # Methodology
 At this point we are ready to begin testing different classification algorithms. Our project is a typical classification problem as we attempt to learn the relationship between a set of feature variables and a target variable of interest. The aim is to find the best classification algorithm that will be able to predict the "SEVERITYCODE" of a certain incident given a defined X attributes with the highest accuracy. We will test k-nearest neighbor, Decision Tree, Support Vector Machine & Logistic Regression.
-K-Nearest Neighbors
-In the K-Nearest Neighbors, we need to analyze which value ok K gives us the best accuracy. We will perform the analysis on a range ok K values from 1 to 25 and see how the accuracy changes.
- 
-Plotting the accuracy vs the K values
- 
-We can see that the best accuracy is with a K value of 21. Therefore, we will build the model using K value of 21
- 
-KNN Model Evaluation:
- 
-
-# Decision Tree
- 
-Decision Tree Model Evaluation:
- 
-# Support Vector Machine
- 
-Support Vector Machine Model Evaluation:
- 
-# Logistic Regression
-Since our target variable is of a binary nature, it would be perfect for logistic regression.
- 
-Logistic Regression Model Evaluation:
  
 # Models Comparison
  
+![Image of the Model Comparison](https://github.com/shadysakhel/Final-Project/blob/master/Picture22-Model%20Comparison.png)
 
 # Discussion & Conclusion
 Based on the evaluation metric results listed above, we can say that all 4 algorithms have resulted in almost a similar result. The best accuracy is with the Decision Tree algorithm which has an accuracy percentage of about 69%. Although, we can confidently say that our model with the decision tree can predict whether an accident will result in a severity code 1 or 2, the accuracy is not that high. Our model seems to be underfitted. Since we have many attributes which contribute to the severity of the accident, we can say that collecting more data of more accidents will help increase the accuracy of the model. We have lost quite a number of data in the cleaning process which was mainly due to some attributes being missed in the collection of the data.
