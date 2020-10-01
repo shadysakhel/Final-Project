@@ -55,9 +55,9 @@ As part of cleaning the data, the following shall be done:
 # Data Visualization 
 The graph below shows the change in number of accidents per year from 2004 till 2020 (2020 Data is only till May)
 ![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Picture%204%20-%20INCYEAR%20vs%20PERSONCOUNT.png)
-The graph below shows the change in number of accidents over months of the year. Since 2020 data is not for a complete year we will exclude it in this part of the analysis
+ The graph below shows the change in number of accidents over months of the year. Since 2020 data is not for a complete year we will exclude it in this part of the analysis
 ![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Picture5%20-%20INCMONTH%20vs%20PERSONCOUNT.png)
-The graph below shows the change in number of accidents over the days of the week
+ The graph below shows the change in number of accidents over the days of the week
 ![Image of the visualization](https://github.com/shadysakhel/Final-Project/blob/master/Picture6%20-%20INCDATES%20vs%20PERSNCOUNT.png)
 # Balancing the Data
  
